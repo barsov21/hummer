@@ -1,0 +1,25 @@
+.header {
+    padding-top: 3px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__menu {
+        display: flex;
+    }
+    &__menu-item {
+        margin-left: 56px;
+        font-size: 13px;
+        color: #fff;
+        &:hover {
+            color: #c7e80a;
+        }
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__phone {
+        font-size: 13px;
+    }
+}
